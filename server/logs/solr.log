@@ -1,0 +1,82 @@
+2019-10-21 22:31:06.858 INFO  (main) [   ] o.e.j.u.log Logging initialized @1705ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-10-21 22:31:06.984 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.rewrite.handler.RedirectRegexRule.setReplacement(java.lang.String) in file:///Users/lalithanandmanne/Downloads/solr-8.2.0/server/etc/jetty.xml
+2019-10-21 22:31:07.053 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-10-21 22:31:07.053 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.server.ServerConnector.setSoLingerTime(int) in file:///Users/lalithanandmanne/Downloads/solr-8.2.0/server/etc/jetty-http.xml
+2019-10-21 22:31:07.059 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 11.0.5+10-LTS
+2019-10-21 22:31:07.078 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/lalithanandmanne/Downloads/solr-8.2.0/server/contexts/] at interval 0
+2019-10-21 22:31:07.330 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-10-21 22:31:07.340 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-10-21 22:31:07.340 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-10-21 22:31:07.341 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-10-21 22:31:07.418 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-10-21 22:31:07.423 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.2.0
+2019-10-21 22:31:07.423 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-10-21 22:31:07.423 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/lalithanandmanne/Downloads/solr-8.2.0
+2019-10-21 22:31:07.423 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-10-21T22:31:07.423619Z
+2019-10-21 22:31:07.472 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /Users/lalithanandmanne/Downloads/solr-8.2.0/server/solr
+2019-10-21 22:31:07.478 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/lalithanandmanne/Downloads/solr-8.2.0/server/solr/solr.xml
+2019-10-21 22:31:07.568 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@617faa95, but no JMX reporters were configured - adding default JMX reporter.
+2019-10-21 22:31:08.081 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-10-21 22:31:08.266 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@5e8c34a0[provider=null,keyStore=null,trustStore=null]
+2019-10-21 22:31:08.267 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@5e8c34a0[provider=null,keyStore=null,trustStore=null]
+2019-10-21 22:31:08.411 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@154bd49b[provider=null,keyStore=null,trustStore=null]
+2019-10-21 22:31:08.411 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@154bd49b[provider=null,keyStore=null,trustStore=null]
+2019-10-21 22:31:08.573 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-10-21 22:31:08.575 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-10-21 22:31:08.640 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@617faa95
+2019-10-21 22:31:08.641 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@617faa95
+2019-10-21 22:31:08.645 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@617faa95
+2019-10-21 22:31:08.682 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /Users/lalithanandmanne/Downloads/solr-8.2.0/server/solr
+2019-10-21 22:31:08.758 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@525d79f0{/solr,file:///Users/lalithanandmanne/Downloads/solr-8.2.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/lalithanandmanne/Downloads/solr-8.2.0/server/solr-webapp/webapp}
+2019-10-21 22:31:08.771 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@2ed3b1f5{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-10-21 22:31:08.771 INFO  (main) [   ] o.e.j.s.Server Started @3621ms
+2019-10-21 22:31:33.867 INFO  (qtp67730604-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571697093635} status=0 QTime=41
+2019-10-21 22:31:33.896 INFO  (qtp67730604-27) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571697093636} status=0 QTime=71
+2019-10-21 22:31:33.915 INFO  (qtp67730604-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571697093636} status=0 QTime=14
+2019-10-21 22:38:19.599 INFO  (qtp67730604-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571697499551} status=0 QTime=0
+2019-10-21 22:38:19.630 INFO  (qtp67730604-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571697499551} status=0 QTime=31
+2019-10-21 22:38:19.649 INFO  (qtp67730604-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571697499551} status=0 QTime=15
+2019-10-21 23:38:37.072 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701117020} status=0 QTime=1
+2019-10-21 23:38:37.113 INFO  (qtp67730604-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701117021} status=0 QTime=43
+2019-10-21 23:38:37.131 INFO  (qtp67730604-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701117021} status=0 QTime=15
+2019-10-21 23:38:40.044 INFO  (qtp67730604-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-21 23:38:40.064 INFO  (qtp67730604-50) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=19
+2019-10-21 23:38:40.087 INFO  (qtp67730604-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=20
+2019-10-22 00:18:04.224 INFO  (qtp67730604-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571703484123} status=0 QTime=0
+2019-10-22 00:18:04.242 INFO  (qtp67730604-25) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571703484124} status=0 QTime=17
+2019-10-22 00:29:38.825 INFO  (qtp67730604-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 00:29:38.828 INFO  (qtp67730604-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1571704178819&since=0} status=0 QTime=2
+2019-10-22 00:29:38.851 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=24
+2019-10-22 00:29:40.055 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 00:29:40.063 INFO  (qtp67730604-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1571704178819} status=0 QTime=6
+2019-10-22 00:29:40.074 INFO  (qtp67730604-59) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=18
+2019-10-22 00:29:41.199 INFO  (qtp67730604-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 00:29:41.200 INFO  (qtp67730604-50) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 00:29:41.215 INFO  (qtp67730604-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=15
+2019-10-22 00:29:42.589 INFO  (qtp67730604-59) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 00:29:42.609 INFO  (qtp67730604-50) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=19
+2019-10-22 00:29:42.617 INFO  (qtp67730604-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1571704182585} status=0 QTime=27
+2019-10-22 00:29:43.494 INFO  (qtp67730604-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 00:29:43.499 INFO  (qtp67730604-50) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1571704183488} status=0 QTime=1
+2019-10-22 00:29:43.532 INFO  (qtp67730604-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=37
+2019-10-22 23:18:51.180 INFO  (qtp67730604-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=4
+2019-10-22 23:18:51.216 INFO  (qtp67730604-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=43
+2019-10-22 23:18:51.231 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=11
+2019-10-22 23:18:53.323 INFO  (qtp67730604-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 23:18:53.328 INFO  (qtp67730604-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1571704178819&since=0} status=0 QTime=1
+2019-10-22 23:18:53.346 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=19
+2019-10-22 23:18:54.496 INFO  (qtp67730604-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 23:18:54.507 INFO  (qtp67730604-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1571704178819} status=0 QTime=7
+2019-10-22 23:18:54.519 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=19
+2019-10-22 23:18:56.279 INFO  (qtp67730604-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 23:18:56.296 INFO  (qtp67730604-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=16
+2019-10-22 23:18:56.312 INFO  (qtp67730604-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=13
+2019-10-22 23:18:57.781 INFO  (qtp67730604-55) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 23:18:57.785 INFO  (qtp67730604-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 23:18:57.805 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=23
+2019-10-22 23:19:01.468 INFO  (qtp67730604-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571701120009} status=0 QTime=0
+2019-10-22 23:19:01.489 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=17
+2019-10-22 23:19:01.506 INFO  (qtp67730604-26) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571701120009} status=0 QTime=15
+2019-10-22 23:36:51.153 INFO  (qtp67730604-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1571787411020} status=0 QTime=1
+2019-10-22 23:36:51.189 INFO  (qtp67730604-67) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571787411020} status=0 QTime=41
+2019-10-22 23:36:51.210 INFO  (qtp67730604-58) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1571787411020} status=0 QTime=17
